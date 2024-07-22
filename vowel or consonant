@@ -1,0 +1,5 @@
+num=input("enter an alphabet : ")
+if num=='a' or num=='A' or num=='e' or num=='E' or num=='i' or num=='I' or num=='o' or num=='O' or num=='u' or num=='U':
+  print("vowel")
+else :
+  print("consonant")
