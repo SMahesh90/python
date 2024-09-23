@@ -1,0 +1,12 @@
+l=[]
+n = int(input("Enter the no.of elements : ")
+for i in range (n) :
+	x = int(input("Enter the element : ")
+	print(l.append(x))
+sum = []
+avg = []
+for i in l:
+	sum = (sum(l))
+	avg = (sum(l)/len(l))
+print(sum)
+print(avg)
