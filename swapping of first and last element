@@ -1,0 +1,10 @@
+l = []
+n = int(input("Enter the no.of elements : "))
+for i in range (n):
+	x = input("Enter the elements : ")
+	l.append(x)
+print("Original list = ",l)
+temp = l[0]
+l[0] = l[-1]
+l[-1] = temp
+print("Interchange of first and last element = ",l)
