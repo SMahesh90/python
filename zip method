@@ -1,0 +1,5 @@
+
+l1 = ["M","na","i","Abhi"]
+l2 = ["y","me","s","ram"]
+l = [i+j for i,j in list(zip(l1,l2))]
+print(l)
